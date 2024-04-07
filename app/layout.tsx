@@ -12,7 +12,11 @@ const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Imagi-Sync",
-  description: "AI Platform",
+  description:
+    "Imagi-Sync is an Ai platform for creating adaptable content.It combines conversation, image, video, music, and code generation",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default async function RootLayout({
