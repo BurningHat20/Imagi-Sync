@@ -2,11 +2,12 @@
 
 import { ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
+import "@/app/globals.css";
 import { tools } from "@/constants";
 
 export default function HomePage() {
@@ -48,7 +49,9 @@ export default function HomePage() {
       </div>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">
         {isLoading
-          ? Array.from({ length: 5 }).map((_, index) => <SkeletonCard key={index} />)
+          ? Array.from({ length: 5 }).map((_, index) => (
+              <SkeletonCard key={index} />
+            ))
           : tools.map((tool) => (
               <Card
                 onClick={() => router.push(tool.href)}
