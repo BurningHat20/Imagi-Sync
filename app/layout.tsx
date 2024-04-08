@@ -14,12 +14,7 @@ export const metadata: Metadata = {
   title: "Imagi-Sync",
   description:
     "Imagi-Sync is an Ai platform for creating adaptable content.It combines conversation, image, video, music, and code generation",
-  twitter: {
-    card: "summary_large_image",
-    title: "Imagi-Sync",
-    description: "Imagi-Sync is an Ai platform for creating adaptable content",
-    images: "./opengraph-image.png",
-  },
+  
 };
 
 export default async function RootLayout({
