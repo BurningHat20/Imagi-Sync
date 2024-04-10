@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ReactElement } from "react";
 
-import "@/app/globals2.css";
+import "./globals2.css";
 
 export default function Home() {
   const { isSignedIn } = useAuth();

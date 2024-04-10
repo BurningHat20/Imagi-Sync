@@ -7,8 +7,8 @@ import { useEffect, useState } from "react";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
-import "@/app/globals.css";
 import { tools } from "@/constants";
+import "./globals.css";
 
 export default function HomePage() {
   const router = useRouter();
