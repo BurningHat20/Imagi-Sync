@@ -7,5 +7,3 @@ const LandingLayout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default LandingLayout;
-
-// bg-[#111827]

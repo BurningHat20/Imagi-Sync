@@ -20,18 +20,6 @@ const pricingCards: IPricingCard[] = [
     id: 1,
     oneliner: "AI-powered Platform for Creative Professionals",
   },
-  // {
-  //     price: 99,
-  //     title: "Insightful Enterprise",
-  //     benefits: [
-  //         "Everything In Pro Tier, and:",
-  //         "Data-driven recommendations",
-  //         "Customizable sales workflows",
-  //         "Real-time alerts and notifications",
-  //     ],
-  //     id: 2,
-  //     oneliner: "Comprehensive sales optimization for accelerated revenue gains"
-  // },
 ];
 
 export default pricingCards;
